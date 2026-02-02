@@ -1,0 +1,80 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://www.bibliothequedequebec.qc.ca/img/banner/banniere-og-bibliotheques.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+}
+
+p, ul {
+    margin-left: 5px;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+}
+
+#input, #submit {
+    margin: 2px;
+}
+
+.livre {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    margin: 15px 0;
+}
+
+.livre img {
+    width: 90px;
+    height: auto;
+    object-fit: cover;
+}
+
+.infos h3 {
+    margin: 0 0 5px 0;
+}
+
+.infos p {
+    margin: 3px 0;
+}
+
+.dispo {
+    color: green;
+    font-weight: bold;
+}
+
+.indispo {
+    color: crimson;
+    font-weight: bold;
+}
+
+#header {
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px 100px;
+    box-shadow: 3px 3px 5px;
+}
+
+#main {
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px;
+    margin: 10px 100px;
+}
+
+a:link {
+    color: navy;
+}
